@@ -3,12 +3,18 @@ body {
   font-family: arial, sans-serif;
   line-height: 1.5;
 }
-
+h1 {
+    
+}
+a {
+  color: #08c;
+}
 input, textarea, button {
   font: inherit;
   color: inherit;
 }
-a {
-    color: darkred;
+img {
+  max-width: 100%
+  width: auto;
+  height: auto;
 }
-c { color: aqua}
