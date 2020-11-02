@@ -3,9 +3,9 @@ body {
   font-family: arial, sans-serif;
   line-height: 1.5;
 }
-h1 {
-    
+h1 {color: aqua;   
 }
+h2 {color: bisque;}
 a {
   color: #08c;
 }
