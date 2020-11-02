@@ -3,3 +3,12 @@ body {
   font-family: arial, sans-serif;
   line-height: 1.5;
 }
+
+input, textarea, button {
+  font: inherit;
+  color: inherit;
+}
+a {
+    color: darkred;
+}
+c { color: aqua}
