@@ -2,10 +2,12 @@ body {
   margin: 0;
   font-family: arial, sans-serif;
   line-height: 1.5;
+    font-family: 'Alef', sans-serif;
 }
-h1 {color: palevioletred;   
-}
-h2 {color: bisque;}
+h1 {color: palevioletred; }
+{font-size: 48px;}
+
+h2 {color:coral;}
 a {
   color: #08c;
 }
