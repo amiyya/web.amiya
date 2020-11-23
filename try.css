@@ -1,38 +1,72 @@
 body {
-  margin: 0;
-  font-family: arial, sans-serif;
-  line-height: 1.5;
+    margin: 0;
+    font-family: arial, sans-serif;
+    line-height: 1.5;
     font-family: 'Alef', sans-serif;
 }
-h1 {color: #fe6f74;} 
-{font-size: 48px;}
 
-h2 {color:#ef502d;}
+h1 {
+    color: #fe6f74;
+}
+
+    {
+    font-size: 48px;
+}
+
+h2 {
+    color: #ef502d;
+}
+
 a {
-  color: #08c;
+    color: #08c;
 }
-input, textarea, button {
-  font: inherit;
-  color: #ef502d;
+
+input,
+textarea,
+button {
+    font: inherit;
+    color: #ef502d;
 }
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .container {
-  max-width: 800px;
-  margin:  auto;
-  padding: 0 10px;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px;
 }
 
 .recipe {
-  max-width: 800px;
-  margin:  auto;
-  padding: 0 10px;
-    background:#fe6f7442;}
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px;
+    background: #fe6f7442;
+    padding: 5px;
 }
 
 
+.cta {
+    max-width: 800px;
+    margin: auto;
+    background:rgb(214 205 198);
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+}
+.button {
+  background:#ef502d;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  display: inline-block;
+}
+h3 {
+    color:#ef502d ;
+    font-size:30px ;
+    
+}
 
