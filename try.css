@@ -45,28 +45,65 @@ img {
     margin: auto;
     padding: 0 10px;
     background: #fe6f7442;
-    padding: 5px;
+
 }
 
 
 .cta {
-    max-width: 800px;
+    max-width:
+    max-height: 250px;
     margin: auto;
-    background:rgb(214 205 198);
+    background: rgb(214 205 198 / 46%);
     font-size: 21px;
-    text-align: center;
-    padding: 20px;
+    text-align: right;
+    overflow: hidden;
+
 }
+
 .button {
-  background:#ef502d;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  display: inline-block;
+    background: #fe6f74;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
 }
+
 h3 {
-    color:#ef502d ;
-    font-size:30px ;
-    
+    color: #ef502d;
+    font-size: 30px;
+
+}
+
+
+.alignleft {
+    max-width: 40%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    padding: 10px;
+}
+
+.imgbook {
+    max-width: 150px;
+    padding: 10px;
+}
+
+
+
+   .container {
+ max-width: 800px;
+    margin: auto;
+    padding: 0 10px; 
+}
+
+
+.news {
+  padding: 60px;
+  background: url(img/2019.s.jpg);
+  background-position: center;
+  background-size: cover;
+    text-align: center;
+    font-size: 18pt;
+    color: black;
 }
 
