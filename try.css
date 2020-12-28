@@ -61,7 +61,7 @@ img {
 }
 
 .button {
-    background: #fe6f74;
+    background: #ef502d;
     color: #fff;
     text-decoration: none;
     padding: 14px;
@@ -98,12 +98,36 @@ h3 {
 
 
 .news {
+   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/2019.s.jpg);
   padding: 60px;
-  background: url(img/2019.s.jpg);
+  /* background: url(img/2019.s.jpg); */
   background-position: center;
   background-size: cover;
     text-align: center;
     font-size: 18pt;
     color: black;
 }
+
+input {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 2px solid #fff;
+    padding: 5px;  
+}
+
+label span {
+  display: inline-block;
+  width: 100px;
+}
+
+label {
+  margin-bottom:20px;
+  display: block;
+}
+
+
+
+
+
 
