@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #ef502d;
+    color: #333a94;
 }
 
 a {
@@ -68,6 +68,12 @@ img {
     display: inline-block;
 }
 
+.button:hover {
+  background: #fff;
+  color: #000;
+}
+
+
 h3 {
     color: #ef502d;
     font-size: 30px;
@@ -96,6 +102,7 @@ h3 {
     padding: 0 10px; 
 }
 
+/* newsletter */
 
 .news {
    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/2019.s.jpg);
@@ -116,9 +123,14 @@ input {
     padding: 5px;  
 }
 
+input:focus{
+    outline: 0;
+  background: rgba(#fe6f74,0.5);    
+} 
+
 label span {
-  display: inline-block;
-  width: 100px;
+  display: block;
+  margin-bottom:5px;
 }
 
 label {
@@ -131,3 +143,7 @@ label {
 
 
 
+
+span {
+    
+}
