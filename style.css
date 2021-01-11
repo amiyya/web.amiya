@@ -1,10 +1,11 @@
-body {
+body,
+h2{
     font-family: 'Heebo', sans-serif;
 
 }
 
 h1,
-h2,
+
 h3,
 h4 {
     font-family: 'Suez One', serif;
@@ -75,6 +76,7 @@ h4,
     margin-top: 10px;
     transition: .3s;
     border-radius: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -86,13 +88,27 @@ h4,
 }
 
 .gallery {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
 }
-
 .gallery img {
   display: block;
 }
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.about img {
+  display: block;
+  margin-top: 40px;
+}
+
 
