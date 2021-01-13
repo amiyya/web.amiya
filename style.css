@@ -18,7 +18,7 @@ h1 {
 }
 
 .about {
-    background: url(img/strip1.jpg);
+    background: url(img/strip.jpg);
     background-size: cover;
 
 }
@@ -68,14 +68,14 @@ h4,
 }
 
 .button {
-    color: #84997d;
+    color: #6d7c68;
     text-decoration: none;
     border: 3px solid #84997d;
     padding: 14px 20px;
     display: inline-block;
     margin-top: 10px;
     transition: .3s;
-    border-radius: 10px;
+    border-radius: 2px;
     margin-bottom: 10px;
 
 }
@@ -96,7 +96,8 @@ h4,
   font-size: 21px;
   text-align: center;
   font-weight: bold;
-  color: gray;
+  color: black;
+   
 }
 .gallery img {
   display: block;
@@ -110,5 +111,32 @@ h2 {
   display: block;
   margin-top: 40px;
 }
+p { font-size: 20px;
+    
+}
+
+
+
+
+
+.footer .container {
+background-color: #84997d;
+    padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+
+    
+}
+
+footer {
+    background-color: #84997d;
+    padding: 20px;
+  margin-top: 50px;
+  overflow: hidden;
+    text-align: center;
+    
+}
+
 
 
