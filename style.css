@@ -1,5 +1,5 @@
 body,
-h2{
+h2 {
     font-family: 'Heebo', sans-serif;
 
 }
@@ -88,31 +88,35 @@ h4,
 }
 
 .gallery {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-  font-size: 21px;
-  text-align: center;
-  font-weight: bold;
-  color: black;
-   
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+
 }
+
 .gallery img {
-  display: block;
+    display: block;
 }
+
 h2 {
-  font-size: 30px;
-  text-align: center;
+    font-size: 30px;
+    text-align: center;
 }
 
 .about img {
-  display: block;
-  margin-top: 40px;
+    display: block;
+    margin-top: 40px;
 }
-p { font-size: 20px;
-    
+
+p {
+    font-size: 20px;
+
 }
 
 
@@ -120,23 +124,22 @@ p { font-size: 20px;
 
 
 .footer .container {
-background-color: #84997d;
+    background-color: #84997d;
     padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
 
-    
+
 }
 
 footer {
     background-color: #84997d;
     padding: 20px;
-  margin-top: 50px;
-  overflow: hidden;
+    margin-top: 50px;
+    overflow: hidden;
     text-align: center;
-    
+    image-orientation: 20px;
+
+
 }
-
-
-
