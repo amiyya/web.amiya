@@ -21,6 +21,10 @@ h1 {
     background: url(img/strip.jpg);
     background-size: cover;
 
+    background-attachment: fixed;
+    background-size: 100%;
+
+
 }
 
 .container {
@@ -136,13 +140,13 @@ p {
 footer {
     background-color: #7e5535;
     padding: 20px;
-    
+
     overflow: hidden;
     text-align: center;
 }
 
 .contact {
-    background-color: #84997d; 
+    background-color: #84997d;
     margin-top: 60px;
     padding: 40px 0;
     font-size: 24px;
@@ -150,17 +154,29 @@ footer {
 
 }
 
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
 a {
-    color:floralwhite
+    color: floralwhite
 }
 
 .footer {
     background: #353d32;
-  text-align: center;
-  padding: 40px 0;
+    text-align: center;
+    padding: 40px 0;
+
 }
 
 .footer a {
-  margin: 0 10px;
-}
+    margin: 0 10px;
+    text-decoration: none;
 
+
+}
