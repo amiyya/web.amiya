@@ -37,3 +37,48 @@ h1 {
 .container {
     
 }
+
+.banner {
+  background-image:
+    url(img/eco-friendly-stylish-recyclable-paper-tableware.jpg);
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.button {
+  text-decoration: none;
+  color: #000;
+  background: #c7a17a;
+  padding: 10px 40px;
+  display: inline-block;
+}
+.button:hover{
+  background: #30271c;
+  color: #fff;
+}
+h2:after {
+  content: "";
+  border-bottom: 3px solid #c7a17a;
+  width: 80px;
+  display: block;
+}
+h1:after {
+  content: "";
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+h1:after {
+  content: "";
+  background: url(img/zero-waste-concept-paper-tableware.jpg) no-repeat;
+  background-size: contain;
+  height: 30px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+
